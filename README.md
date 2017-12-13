@@ -1,2 +1,0 @@
-# okkrischuk.github.io
-landing
