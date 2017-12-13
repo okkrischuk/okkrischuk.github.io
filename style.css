@@ -5,6 +5,7 @@ body{font-family:'Open Sans', sans-serif;font-size:14pt;line-height:18pt;color:#
 .link{color:#18559f;}
 .partner-logo{color:#ffffff;font-size:30pt;line-height:36pt;font-weight:700;text-transform:uppercase;text-align:center;}
 .headpanel__logo,
+<<<<<<< HEAD
 .footer__logo{display:block;margin:0 auto;}
 .footer__logo{font-size:22pt;line-height:28pt;}
 .header{background-image:url(img/header-background.png);background-position:center top;background-repeat:no-repeat;background-size:cover;}
@@ -89,3 +90,478 @@ owl-carousel__item{position:relative;z-index:100;-webkit-backface-visibility:hid
 .city-description{font-size:12pt;margin-bottom:20px;}
 }
 #hotels_uk{width:99% !important;min-width:220px;}
+=======
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+}
+.footer__logo {
+    font-size: 22pt;
+    line-height: 28pt;
+}
+/*
+ * HEADER
+ */
+
+.header {
+    background-image: url(img/header-background.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+}
+
+.headpanel {
+    margin-bottom: 80px;
+}
+
+
+
+/*
+ * OFFER LIST
+ */
+
+.offer-list {
+    margin-bottom: 25px;
+}
+
+.offer-item {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+
+.offer-item__icon {
+    padding-right: 10px;
+}
+
+.offer-item__link {
+    color: #ffffff;
+    font-size: 16pt;
+    line-height: 20pt;
+}
+
+.offer-btn {
+    width: 280px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.offer-btn__link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/*
+ *  ADVANTAGE LIST
+ */
+
+.advantage {
+    padding-top: 20px;
+}
+
+.advantage-item {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.advantage-item__icon {
+    max-height: 72px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.advantage-item__description {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0;
+}
+
+
+
+/*
+ *  MAP SECTION
+ */
+
+.location {
+    margin-bottom: 70px;
+}
+
+.location-title {
+    margin-bottom: 30px;
+}
+
+.map-banner__img {
+    max-width: 100%;
+}
+
+.map-location__tittle {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.map-location .location-item__checkbox {
+    display: none;
+}
+
+.map-location .location-item__checkbox + label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.map-location .location-item__checkbox + label:after {
+    content: "";
+    display: block;
+    height: 20px;
+    margin-top: 3px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.map-location .location-item__checkbox + label + ul {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.map-location .location-item__checkbox:checked + label + ul {
+    display: block;
+}
+
+.map-location .location-item__checkbox:checked + label:after {
+    content: "";
+}
+
+.map-location .location-item__list {
+    padding-left: 2px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.map-location .location-item__list ul {
+    padding-left: 0;
+}
+
+.map-location .location-item__list li {
+    list-style: none;
+}
+
+.map-location .location-item__link {
+    font-size: 16px;
+    color: #18559f;
+    list-style: none;
+}
+
+.location-list__link {
+    font-size: 16px;
+}
+
+.location-item__title {
+    font-size: 18px;
+    margin: 0px 0;
+    font-weight: 400;
+}
+
+
+
+/*
+ * PLACEMENT
+ */
+
+.place-category {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.place-category__img {
+    width: 100%;
+}
+
+.place-category__title {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    padding: 5px 15px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 16pt;
+}
+
+.place-category__price-label {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.price-label__txt {
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+
+.carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+}
+
+owl-carousel__item {
+    position: relative;
+    z-index: 100; 
+    -webkit-backface-visibility: hidden; 
+}
+
+.owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+}
+
+.owl-nav i {
+    font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+    left: -30px;
+}
+
+.owl-nav .owl-next {
+    right: -30px;
+}
+
+
+
+/*
+ * BANNER & WIDGET BLOCK
+ */
+
+.block {
+    margin-bottom: 30px;
+}
+
+ .banner__img {
+    max-width:100%;
+    display: block;
+    }
+
+.widget {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*
+ * CITY_DESCRIPTION
+ */
+
+.city-description {
+    margin-bottom: 70px;
+}
+
+.city-description__txt {
+    text-align: justify;
+}
+
+
+
+/*
+ * FOOTER
+ */
+
+.footer {
+    background: #424242;
+    padding: 40px 0;
+}
+
+.partner {
+    margin: 0 auto;
+}
+
+.footer__txt {
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+}
+
+.hotels__logo {
+    width: 150px;
+}
+
+@media screen and (max-width:1100px) {
+
+    .map-banner {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .location {
+        margin-bottom: 30px;
+    }
+
+    .place-category {
+        margin-bottom: 30px;
+    }
+
+    .banner {
+        margin-bottom: 30px;
+    }
+    
+    .block {
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    
+    .headtitle {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .form {
+        margin-bottom: 20px;
+    }
+
+    .placement {
+        flex-wrap: nowrap;
+    }
+   
+}
+
+   
+@media screen and (max-width:500px) {
+    
+    .partner-logo {
+    color: #ffffff;
+    font-size: 18pt;
+    line-height: 24pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+    .header-content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .headpanel {
+        margin-bottom: 20px;
+    }
+    
+    .headpanel__logo,
+    .footer__logo {
+        width: 100%;
+    }
+    
+    .headtitle {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    
+    .form {
+        margin-bottom: 20px;
+    }
+    
+
+    .offer-item {
+        padding: 2px;
+    }
+    
+    .offer-item__link {
+        font-size: 12pt;
+        line-height: 16pt;
+    }
+    
+    .offer-btn {
+        width: 250px;
+    }
+    
+    .advantage {
+        padding: 5px;
+    }
+    
+    .advantage-item {
+        flex-wrap: nowrap;
+    }
+    
+    .advantage-item__icon {
+        margin: 10px 0;
+        margin-right: 15px;
+    }
+    
+    .advantage-item__description {
+        font-size: 14pt;
+        text-align: left;
+        margin: 10px 0;
+    }
+
+    .title {
+        font-size: 18pt;
+        line-height: 24pt;
+    }
+    
+    .location {
+        margin-bottom: 20px;
+    }
+    
+    .map-banner {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .block {
+        margin-bottom: -10px;
+    }
+    
+    .banner {
+        margin-bottom: 20px;
+    }
+    
+    .banner__img {
+        max-width: 100%;
+        display: block;
+    }    
+    
+    .city-description {
+        font-size: 12pt;
+        margin-bottom: 20px;
+    }
+}
+
+#hotels_uk {
+        width: 99% !important;
+        min-width: 220px;
+}
+
+>>>>>>> f20c670e2488233a32049f14f2e615e9d7ecd2a3
